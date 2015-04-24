@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1365352595407
+Build-Jdk: 1.6.0_27
+Built-By: Ingo
+Bundle-ManifestVersion: 2
+Bundle-Name: bccontrib
+Bundle-SymbolicName: org.jitsi.bccontrib
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.jitsi.bccontrib.digests;uses:="org.jitsi.bccontrib.e
+ ngines,org.jitsi.bccontrib.util,org.bouncycastle.crypto";version="1.0.0
+ .SNAPSHOT",org.jitsi.bccontrib.engines;uses:="org.jitsi.bccontrib.util,
+ org.bouncycastle.crypto,org.bouncycastle.crypto.params,org.jitsi.bccont
+ rib.params";version="1.0.0.SNAPSHOT",org.jitsi.bccontrib.macs;uses:="or
+ g.bouncycastle.crypto,org.bouncycastle.crypto.params,org.jitsi.bccontri
+ b.digests,org.jitsi.bccontrib.params";version="1.0.0.SNAPSHOT",org.jits
+ i.bccontrib.params;uses:="org.bouncycastle.crypto";version="1.0.0.SNAPS
+ HOT",org.jitsi.bccontrib.prng;uses:="org.bouncycastle.crypto,org.bouncy
+ castle.crypto.params,org.bouncycastle.crypto.digests,org.bouncycastle.c
+ rypto.prng,org.bouncycastle.crypto.engines";version="1.0.0.SNAPSHOT",or
+ g.jitsi.bccontrib.util;version="1.0.0.SNAPSHOT"
+Import-Package: org.bouncycastle.crypto,org.bouncycastle.crypto.digests,
+ org.bouncycastle.crypto.engines,org.bouncycastle.crypto.params,org.boun
+ cycastle.crypto.prng
+Tool: Bnd-1.50.0
